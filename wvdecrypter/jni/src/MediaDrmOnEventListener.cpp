@@ -25,7 +25,7 @@
 
 using namespace jni;
 
-static std::string s_className =  "org/xbmc/kodi/interfaces/XBMCMediaDrmOnEventListener";
+static std::string s_className =  "org/xbmc/kodinerds.retroplayer/interfaces/XBMCMediaDrmOnEventListener";
 
 CJNIMediaDrmOnEventListener::CJNIMediaDrmOnEventListener(const CJNIClassLoader *classLoader)
   : CJNIBase(s_className)
